@@ -32,3 +32,7 @@
 ##### winSCPE
 ##### ubuntu
 ##### Git, Github
+
+### Project based on tutorials provided by:
+https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ
+https://github.com/codebasics/py/tree/master/DataScience/BangloreHomePrices
