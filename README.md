@@ -1,6 +1,6 @@
 # Amazon_AWS_deployed_ML_PricePrediction
 
-### Rent Cost Prediction for appartments in Germany considering different variables such as squared meters, rooms, location and others.
+## Rent Cost Prediction for appartments in Germany considering different variables such as squared meters, rooms, location and others.
 
 ## __http://ec2-184-73-42-86.compute-1.amazonaws.com/__
 
