@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Germany Home Rent Cost Prediction / Deutschland Wohnungsmietkosten Vorhersage</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form"> 
+    <h1>Germany Home Rent Cost Prediction</h1>
+    <h3>The data was scraped from Immoscout24, the biggest real estate platform in Germany.</h3>
+</form>
+    
+<form class="form1">
+    <h2>Fläche / Area (Square Meters)</h2>
+    <input class="area"  type="text" id="uiSqft" class="floatLabel" name="Squareft" value="100">
+	
+    <h2>Zimmenrn / Rooms</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-room-1" name="uiRooms" value="1"/>
+		<label for="radio-room-1">1</label>
+		<input type="radio" id="radio-room-2" name="uiRooms" value="2" checked/>
+		<label for="radio-room-2">2</label>
+		<input type="radio" id="radio-room-3" name="uiRooms" value="3"/>
+		<label for="radio-room-3">3</label>
+		<input type="radio" id="radio-room-4" name="uiRooms" value="4"/>
+		<label for="radio-room-4">4</label>
+		<input type="radio" id="radio-room-5" name="uiRooms" value="5"/>
+		<label for="radio-room-5">5</label>
+	</div>
+	</form>
+<form class="form1">
+	<h2>Parkplätze / Parkings</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-parking-0" name="uiParkings" value="0" checked/>
+		<label for="radio-parking-0">0</label>
+		<input type="radio" id="radio-parking-1" name="uiParkings" value="1"/>
+		<label for="radio-parking-1">1</label>
+		<input type="radio" id="radio-parking-2" name="uiParkings" value="2"/>
+		<label for="radio-parking-2">2</label>
+		<input type="radio" id="radio-parking-3" name="uiParkings" value="3"/>
+		<label for="radio-parking-3">3</label>
+		<input type="radio" id="radio-parking-4" name="uiParkings" value="4"/>
+		<label for="radio-parking-4">4</label>
+	</div>
+
+    <h2>Haustiere / Pets</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-pet-no" name="uiPets" value="False" checked/>
+		<label for="radio-pet-no">Nein / No</label>
+		<input type="radio" id="radio-pet-yes" name="uiPets" value="True"/>
+		<label for="radio-pet-yes">Ja / Yes</label>
+	</div>
+
+    <h2>Balkon / Balcony</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-balcon-no" name="uiBalcons" value="False" checked/>
+		<label for="radio-balcon-no">Nein / No</label>
+		<input type="radio" id="radio-balcon-yes" name="uiBalcons" value="True"/>
+		<label for="radio-balcon-yes">Ja / Yes</label>
+	</div>
+
+    <h2>Garten / Garden</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-garden-no" name="uiGardens" value="False" checked/>
+		<label for="radio-garden-no">Nein / No</label>
+		<input type="radio" id="radio-garden-yes" name="uiGardens" value="True"/>
+		<label for="radio-garden-yes">Ja / Yes</label>
+	</div>
+
+    <h2>Neu Gebaut / New Constructed</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-new-no" name="uiNews" value="False" checked/>
+		<label for="radio-new-no">Nein / No</label>
+		<input type="radio" id="radio-new-yes" name="uiNews" value="True"/>
+		<label for="radio-new-yes">Ja / Yes</label>
+	</div>
+
+		<h2>Standort / Location</h2>
+	<div>
+  <select class="location" name="" id="uiLocations">
+    <option value="" disabled="disabled" selected="selected">Standort auswählen / Choose Location</option>
+		<option>Aachen</option>
+        <option>Stuttgart</option>
+  </select>
+</div>
+	<button class="submit" onclick="onClickedEstimatePrice()" type="button">Voraussichtliche Kosten / Estimate Cost</button>
+	<div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
+    <h4> Dataset contains offers from the dates 2018-09-22, 2019-05-10 and 2019-10-08.
+        https://www.kaggle.com/corrieaar/apartment-rental-offers-in-germany
+    </h4>
+</h3>
+</body>
+</html>
