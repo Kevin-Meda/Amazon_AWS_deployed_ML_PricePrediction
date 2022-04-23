@@ -10,6 +10,9 @@
 #### Development of htlm, css and javascript scripts for front-end and back-end functioning with ML model.
 #### Deployed ML Model in webpage with Amazon AWS EC2 instance in a remote machine with Ubuntu and nginx.
 
+
+
+
 ![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/aws_ec2_instance.JPG)
 
 ![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/pycharm_server.JPG)
@@ -20,12 +23,11 @@
 
 
 ##### The programming tools used:
-\n Python (Pandas, Numpy, Scikit-learn, matplotlib)
-\n Flask
-Javascript 
-html
-css
-
-nginx
-winSCPE
-ubuntu
+##### Python (Pandas, Numpy, Scikit-learn, matplotlib)
+##### Flask
+##### Javascript 
+##### html
+##### css
+##### nginx
+##### winSCPE
+##### ubuntu
