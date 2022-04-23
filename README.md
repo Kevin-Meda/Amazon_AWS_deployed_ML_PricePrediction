@@ -1,6 +1,6 @@
 # Amazon_AWS_deployed_ML_PricePrediction
 
-### Rent cost Prediction for appartments in Germany considering different variables such as squared meters, rooms, location and others.
+### Rent cost Prediction ML Regression model for appartments in Germany considering different variables such as squared meters, rooms, location and others.
 
 ## __http://ec2-184-73-42-86.compute-1.amazonaws.com/__
 
@@ -20,7 +20,7 @@
 
 
 The programming tools used:
-Python (Pandas, Numpy, Scikit-learn)
+Python (Pandas, Numpy, Scikit-learn, matplotlib)
 Flask
 Javascript 
 html
