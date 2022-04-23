@@ -10,10 +10,12 @@
 #### Development of htlm, css and javascript scripts for front-end and back-end functioning with ML model.
 #### Deployed ML Model in webpage with Amazon AWS EC2 instance in a remote machine with Ubuntu and nginx.
 
-![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/aws_deployed.JPG)
 ![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/aws_ec2_instance.JPG)
+
 ![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/pycharm_server.JPG)
+
 ![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/ubuntu_terminal.JPG)
+
 ![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/winSCP_transferfiles.JPG)
 
 
