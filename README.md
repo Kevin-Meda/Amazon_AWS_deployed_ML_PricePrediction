@@ -4,7 +4,7 @@
 
 ## __http://ec2-184-73-42-86.compute-1.amazonaws.com/__
 
-![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/images/aws_deployed.JPG)
+![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/images/aws_deployed.JPG)
 
 #### Development of a full Machine Learning project with data obtained from Kaggle, clean, prepared and analyzed with Python.
 #### Development of htlm, css and javascript scripts for front-end and back-end functioning with ML model.
