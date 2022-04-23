@@ -14,14 +14,14 @@
 
 ![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/pycharm_server.JPG)
 
-![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/ubuntu_terminal.JPG)
+![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/ubuntu_terminal_nginx.JPG)
 
 ![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/winSCP_transferfiles.JPG)
 
 
-The programming tools used:
-Python (Pandas, Numpy, Scikit-learn, matplotlib)
-Flask
+##### The programming tools used:
+\n Python (Pandas, Numpy, Scikit-learn, matplotlib)
+\n Flask
 Javascript 
 html
 css
