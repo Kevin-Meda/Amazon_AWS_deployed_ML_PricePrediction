@@ -6,10 +6,10 @@
 
 ![alt text](https://github.com/Kevin-Meda/Amazon_AWS_deployed_ML_PricePrediction/blob/main/images/aws_deployed.JPG)
 
-#### Development of a full Machine Learning project with data obtained from Kaggle. Cleaned, prepared and analyzed with Python.
-#### Generation of a Regression model to be deployed on amazon AWS EC2 instances
-#### Development of htlm, css and javascript scripts for front-end and back-end functioning with ML model.
-#### Deployed ML Model in webpage with Amazon AWS EC2 instance in a remote machine with Ubuntu and nginx.
+### Development of a full Machine Learning project with data obtained from Kaggle. Cleaned, prepared and analyzed with Python.
+### Generation of a Regression model to be deployed on amazon AWS EC2 instances
+### Development of htlm, css and javascript scripts for front-end and back-end functioning with ML model.
+### Deployed ML Model in webpage with Amazon AWS EC2 instance in a remote machine with Ubuntu and nginx.
 ##
 ##
 
